@@ -7,14 +7,13 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Css -->
-
-  <link href="{{url('/')}}/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-  <link href="{{url('/')}}/assets/css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
-  <link href="{{url('/')}}/assets/css/font.css" rel="stylesheet" type="text/css"  media="all">
-  <link href="{{url('/')}}/assets/css/base.css" rel="stylesheet" type="text/css" media="all"/>
-  <link href="{{url('/')}}/assets/css/main.css"  rel="stylesheet" type="text/css" media="all"/>
-  <link href="{{url('/')}}/assets/css/owl-carousel/owl.carousel.css" rel="stylesheet"  media="all">
-  <link href="{{url('/')}}/assets/css/owl-carousel/owl.theme.css" rel="stylesheet"  media="all">
+  <link href="{{Request::root()}}/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="{{Request::root()}}/assets/css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
+  <link href="{{Request::root()}}/assets/css/font.css" rel="stylesheet" type="text/css"  media="all">
+  <link href="{{Request::root()}}/assets/css/base.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="{{Request::root()}}/assets/css/main.css"  rel="stylesheet" type="text/css" media="all"/>
+  <link href="{{Request::root()}}/assets/css/owl-carousel/owl.carousel.css" rel="stylesheet"  media="all">
+  <link href="{{Request::root()}}/assets/css/owl-carousel/owl.theme.css" rel="stylesheet"  media="all">
 </head>
 <body>
   <!-- Preloader -->
@@ -42,7 +41,7 @@
     <section id="home" class="home">
       <!--Block content-->
       <div class="block-content ">
-        <div class="block-teaser block-background-image large overlay" data-background="img/teaser/1.jpg">
+        <div class="block-teaser block-background-image large overlay" data-background="{{Request::root()}}/assets/img/teaser/1.jpg">
           <!--Container-->
           <div class="container ">
             <!--Row-->
@@ -97,7 +96,7 @@
             </div>
             <div class="col-sm-2 pd-0 t-center">
               <div class="img-profile">
-                <img src="{{url('/')}}/assets/upload/image/profile.jpg" alt="">
+                <img src="{{Request::root()}}/assets/upload/image/profile.jpg" alt="">
               </div>
               <div class="name-profile">
                 <h5><a class="scroll" href="#home">Aditya Verma<span>Web Designer / Developer</span></a></h5>
@@ -485,7 +484,7 @@
             <div class="row">
               <div class="block-service clearfix">
                 <div class="col-sm-4 img">
-                  <img src="{{url('/')}}/assets/img/img-service.jpg" alt="">
+                  <img src="{{Request::root()}}/assets/img/img-service.jpg" alt="">
                 </div>
                 <div class="col-sm-4">
                   <ul class="block-list-services mt-60">
@@ -576,14 +575,14 @@
             <div class="row">
               <div class="block-client clearfix ">
                 <ul id="client-carousel">
-                  <li><img src="{{url('/')}}/assets/img/logo/l1.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l2.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l3.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l4.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l5.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l6.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l7.png" alt=""></li>
-                  <li><img src="{{url('/')}}/assets/img/logo/l8.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l1.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l2.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l3.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l4.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l5.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l6.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l7.png" alt=""></li>
+                  <li><img src="{{Request::root()}}/assets/img/logo/l8.png" alt=""></li>
                 </ul>
               </div>
             </div>
@@ -603,11 +602,11 @@
                   <!--Testi thumbs-->
                   <div class="testi-thumbs">
                     <ul class="thumbs">
-                      <li><a class="t-active" href="#testi-1"><img src="{{url('/')}}/assets/img/testimonial/1.jpg" alt="" ><span></span></a></li>
-                      <li><a href="#testi-2"><img src="{{url('/')}}/assets/img/testimonial/2.jpg" alt=""><span></span></a></li>
-                      <li><a href="#testi-3"><img src="{{url('/')}}/assets/img/testimonial/3.jpg" alt=""><span></span></a></li>
-                      <li><a href="#testi-4"><img src="{{url('/')}}/assets/img/testimonial/4.jpg" alt=""><span></span></a></li>
-                      <li><a href="#testi-5"><img src="{{url('/')}}/assets/img/testimonial/5.jpg" alt=""><span></span></a></li>
+                      <li><a class="t-active" href="#testi-1"><img src="{{Request::root()}}/assets/img/testimonial/1.jpg" alt="" ><span></span></a></li>
+                      <li><a href="#testi-2"><img src="{{Request::root()}}/assets/img/testimonial/2.jpg" alt=""><span></span></a></li>
+                      <li><a href="#testi-3"><img src="{{Request::root()}}/assets/img/testimonial/3.jpg" alt=""><span></span></a></li>
+                      <li><a href="#testi-4"><img src="{{Request::root()}}/assets/img/testimonial/4.jpg" alt=""><span></span></a></li>
+                      <li><a href="#testi-5"><img src="{{Request::root()}}/assets/img/testimonial/5.jpg" alt=""><span></span></a></li>
                     </ul>
                     <h3 class="white mt-50 mb-20">Peaple appreciate working with difference vCard</h3>
                   </div>
@@ -822,7 +821,7 @@
                                   <span>in web design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/1.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/1.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -833,7 +832,7 @@
                                   <span>in web design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/2.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/2.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -844,7 +843,7 @@
                                   <span>in graphic design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/3.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/3.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -855,7 +854,7 @@
                                   <span>in graphic design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/4.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/4.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -866,7 +865,7 @@
                                   <span>in graphic design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/5.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/5.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -877,7 +876,7 @@
                                   <span>in web design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/6.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/6.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -888,7 +887,7 @@
                                   <span>in motion design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/7.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/7.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -899,7 +898,7 @@
                                   <span>in motion design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/9.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/9.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -910,7 +909,7 @@
                                   <span>in web design</span>
                                   <h5>Project Name</h5>
                                 </div>
-                                <img src="{{url('/')}}/assets/img/portfolio/10.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/portfolio/10.jpg" alt="">
                               </a>
                             </div>
                           </div>
@@ -947,7 +946,7 @@
                             <div class="post latest">
                               <!--Post media-->
                               <div class="post-media">
-                                <img src="{{url('/')}}/assets/img/blog/1.jpg" alt="">
+                                <img src="{{Request::root()}}/assets/img/blog/1.jpg" alt="">
                               </div>
                               <!--End post media-->
                               <!--Post details-->
@@ -975,7 +974,7 @@
                               <div class="post latest">
                                 <!--Post media-->
                                 <div class="post-media">
-                                  <img src="{{url('/')}}/assets/img/blog/2.jpg" alt="">
+                                  <img src="{{Request::root()}}/assets/img/blog/2.jpg" alt="">
                                 </div>
                                 <!--End post media-->
                                 <!--Post details-->
@@ -1003,7 +1002,7 @@
                                 <div class="post latest">
                                   <!--Post media-->
                                   <div class="post-media">
-                                    <img src="{{url('/')}}/assets/img/blog/3.jpg" alt="">
+                                    <img src="{{Request::root()}}/assets/img/blog/3.jpg" alt="">
                                   </div>
                                   <!--End post media-->
                                   <!--Post details-->
@@ -1174,20 +1173,20 @@
                       </div>
                       <!--End wrapper-->
                       <!--Javascript-->
-                      <script src="{{url('/')}}/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/bootstrap.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/owl.carousel.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/masonry.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/jquery.smooth-scroll.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/jquery.appear.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/timer.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/placeholders.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/instafeed.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/easing.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/jquery.ui.totop.min.js" type="text/javascript"></script>
-                      <script src="{{url('/')}}/assets/js/script.js" type="text/javascript"></script>
-                      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+                      <script src="{{Request::root()}}/assets/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/bootstrap.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/owl.carousel.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/masonry.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/jquery.smooth-scroll.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/jquery.appear.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/timer.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/placeholders.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/instafeed.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/easing.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/jquery.ui.totop.min.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/js/script.js" type="text/javascript"></script>
+                      <script src="{{Request::root()}}/assets/https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
                       <script>
                       (function($) {
                         "use strict";
@@ -1242,13 +1241,5 @@
                         </script>
                         <!-- Google analytics -->
                         <!-- End google analytics -->
-                        <script>
-                        window.onload=function(){
-                              $(function(){
-                                  if(window.location.protocol==="https:")
-                                      window.location.protocol="http";
-                              });
-                          }
-                        </script>  
                       </body>
                       </html>
