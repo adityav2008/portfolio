@@ -7,6 +7,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Css -->
+  <script>
+  window.onload=function(){
+        $(function(){
+            if(window.location.protocol==="https:")
+                window.location.protocol="http";
+        });
+    }
+  </script>  
   <link href="{{url('/')}}/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
   <link href="{{url('/')}}/assets/css/magnific-popup.css" type="text/css" rel="stylesheet" media="all" />
   <link href="{{url('/')}}/assets/css/font.css" rel="stylesheet" type="text/css"  media="all">
