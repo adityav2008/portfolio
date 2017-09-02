@@ -1186,7 +1186,7 @@
                       <script src="{{Request::root()}}/assets/js/easing.js" type="text/javascript"></script>
                       <script src="{{Request::root()}}/assets/js/jquery.ui.totop.min.js" type="text/javascript"></script>
                       <script src="{{Request::root()}}/assets/js/script.js" type="text/javascript"></script>
-                      <script src="{{Request::root()}}/assets/https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+                      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
                       <script>
                       (function($) {
                         "use strict";
@@ -1231,7 +1231,7 @@
                             position: myLatlng,
                             map: map,
                             icon: {
-                              url: 'img/marker.png',
+                              url: 'assets/img/marker.png',
                               scaledSize: new google.maps.Size(36, 58)
                             }
                           });
